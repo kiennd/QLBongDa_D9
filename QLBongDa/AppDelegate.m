@@ -1,20 +1,26 @@
 //
 //  AppDelegate.m
-//  QLBongDa
 //
-//  Created by KIENND on 4/17/13.
+//  FootballManager
+//
+//  Created by KIENND on 4/15/13.
 //  Copyright (c) 2013 KIENND. All rights reserved.
 //
 
-#import "AppDelegate.h"
 
+#import "AppDelegate.h"
+#import "TeamListVC.h"
+#import "PlayerListVC.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+//    PlayerListVC *teamListVC = [[PlayerListVC alloc] initWithNibName:nil bundle:nil];
+    TeamListVC *teamListVC = [[TeamListVC alloc] initWithNibName:nil bundle:nil];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:teamListVC];
+     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

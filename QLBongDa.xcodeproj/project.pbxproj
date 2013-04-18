@@ -12,10 +12,30 @@
 		4B369804171ED75B00D70BCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B369803171ED75B00D70BCB /* CoreGraphics.framework */; };
 		4B36980A171ED75B00D70BCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B369808171ED75B00D70BCB /* InfoPlist.strings */; };
 		4B36980C171ED75B00D70BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36980B171ED75B00D70BCB /* main.m */; };
-		4B369810171ED75C00D70BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36980F171ED75C00D70BCB /* AppDelegate.m */; };
 		4B369812171ED75C00D70BCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B369811171ED75C00D70BCB /* Default.png */; };
 		4B369814171ED75C00D70BCB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B369813171ED75C00D70BCB /* Default@2x.png */; };
 		4B369816171ED75C00D70BCB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B369815171ED75C00D70BCB /* Default-568h@2x.png */; };
+		4B36981E171ED78500D70BCB /* TeamListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36981D171ED78500D70BCB /* TeamListVC.m */; };
+		4B369821171ED78F00D70BCB /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B369820171ED78F00D70BCB /* DataManager.m */; };
+		4B369823171ED79200D70BCB /* Team.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B369822171ED79200D70BCB /* Team.plist */; };
+		4B369825171ED79800D70BCB /* Player.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B369824171ED79800D70BCB /* Player.plist */; };
+		4B36982B171ED7CE00D70BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36982A171ED7CE00D70BCB /* AppDelegate.m */; };
+		4B36982F171EE0D300D70BCB /* TeamDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B36982D171EE0D300D70BCB /* TeamDetailVC.m */; };
+		4BA6E406171F065C004187F1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E405171F065C004187F1 /* Player.m */; };
+		4BA6E409171F0666004187F1 /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E408171F0666004187F1 /* Team.m */; };
+		4BA6E40C171F25CE004187F1 /* PlayerDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E40B171F25CE004187F1 /* PlayerDetailVC.m */; };
+		4BA6E411171F2B0C004187F1 /* ManchesterUnited.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E410171F2B0C004187F1 /* ManchesterUnited.jpg */; };
+		4BA6E413171F2B3F004187F1 /* ManchesterCity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E412171F2B3F004187F1 /* ManchesterCity.jpg */; };
+		4BA6E415171F2B74004187F1 /* Chelsea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E414171F2B74004187F1 /* Chelsea.jpg */; };
+		4BA6E419171F2BC5004187F1 /* Liverpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E418171F2BC5004187F1 /* Liverpool.jpg */; };
+		4BA6E41F171F2DA0004187F1 /* Arsenal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E41E171F2DA0004187F1 /* Arsenal.jpg */; };
+		4BA6E423171F38E0004187F1 /* ManchesterUnitedTeam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E422171F38E0004187F1 /* ManchesterUnitedTeam.jpg */; };
+		4BA6E425171F39F7004187F1 /* LiverpoolTeam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E424171F39F7004187F1 /* LiverpoolTeam.jpeg */; };
+		4BA6E427171F3A4C004187F1 /* ChealseaTeam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E426171F3A4C004187F1 /* ChealseaTeam.jpg */; };
+		4BA6E429171F3A8C004187F1 /* ManchesterCityTeam.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E428171F3A8C004187F1 /* ManchesterCityTeam.jpeg */; };
+		4BA6E42B171F3AC8004187F1 /* ArsenalTeam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E42A171F3AC8004187F1 /* ArsenalTeam.jpg */; };
+		4BA6E42D171F3BB5004187F1 /* InfoBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA6E42C171F3BB5004187F1 /* InfoBox.png */; };
+		4BC7816C171FB6FC00CB047D /* PlayerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7816B171FB6FC00CB047D /* PlayerListVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +47,38 @@
 		4B369809171ED75B00D70BCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B36980B171ED75B00D70BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B36980D171ED75B00D70BCB /* QLBongDa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLBongDa-Prefix.pch"; sourceTree = "<group>"; };
-		4B36980E171ED75B00D70BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4B36980F171ED75C00D70BCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4B369811171ED75C00D70BCB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4B369813171ED75C00D70BCB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4B369815171ED75C00D70BCB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B36981C171ED78000D70BCB /* TeamListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamListVC.h; sourceTree = "<group>"; };
+		4B36981D171ED78500D70BCB /* TeamListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamListVC.m; sourceTree = "<group>"; };
+		4B36981F171ED78B00D70BCB /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		4B369820171ED78F00D70BCB /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4B369822171ED79200D70BCB /* Team.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Team.plist; sourceTree = "<group>"; };
+		4B369824171ED79800D70BCB /* Player.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Player.plist; sourceTree = "<group>"; };
+		4B369829171ED7CA00D70BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B36982A171ED7CE00D70BCB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B36982C171EE0D300D70BCB /* TeamDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailVC.h; sourceTree = "<group>"; };
+		4B36982D171EE0D300D70BCB /* TeamDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailVC.m; sourceTree = "<group>"; };
+		4BA6E404171F065C004187F1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		4BA6E405171F065C004187F1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		4BA6E407171F0666004187F1 /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		4BA6E408171F0666004187F1 /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		4BA6E40A171F25CE004187F1 /* PlayerDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailVC.h; sourceTree = "<group>"; };
+		4BA6E40B171F25CE004187F1 /* PlayerDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailVC.m; sourceTree = "<group>"; };
+		4BA6E410171F2B0C004187F1 /* ManchesterUnited.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManchesterUnited.jpg; sourceTree = "<group>"; };
+		4BA6E412171F2B3F004187F1 /* ManchesterCity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManchesterCity.jpg; sourceTree = "<group>"; };
+		4BA6E414171F2B74004187F1 /* Chelsea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chelsea.jpg; sourceTree = "<group>"; };
+		4BA6E418171F2BC5004187F1 /* Liverpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Liverpool.jpg; sourceTree = "<group>"; };
+		4BA6E41E171F2DA0004187F1 /* Arsenal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Arsenal.jpg; sourceTree = "<group>"; };
+		4BA6E422171F38E0004187F1 /* ManchesterUnitedTeam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManchesterUnitedTeam.jpg; sourceTree = "<group>"; };
+		4BA6E424171F39F7004187F1 /* LiverpoolTeam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LiverpoolTeam.jpeg; sourceTree = "<group>"; };
+		4BA6E426171F3A4C004187F1 /* ChealseaTeam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChealseaTeam.jpg; sourceTree = "<group>"; };
+		4BA6E428171F3A8C004187F1 /* ManchesterCityTeam.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManchesterCityTeam.jpeg; sourceTree = "<group>"; };
+		4BA6E42A171F3AC8004187F1 /* ArsenalTeam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ArsenalTeam.jpg; sourceTree = "<group>"; };
+		4BA6E42C171F3BB5004187F1 /* InfoBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InfoBox.png; sourceTree = "<group>"; };
+		4BC7816A171FB6FC00CB047D /* PlayerListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListVC.h; sourceTree = "<group>"; };
+		4BC7816B171FB6FC00CB047D /* PlayerListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +98,22 @@
 		4B3697F3171ED75B00D70BCB = {
 			isa = PBXGroup;
 			children = (
-				4B369805171ED75B00D70BCB /* QLBongDa */,
+				4BA6E40D171F2AC5004187F1 /* resource */,
+				4BA6E407171F0666004187F1 /* Team.h */,
+				4BA6E408171F0666004187F1 /* Team.m */,
+				4BA6E404171F065C004187F1 /* Player.h */,
+				4BA6E405171F065C004187F1 /* Player.m */,
+				4BC7816A171FB6FC00CB047D /* PlayerListVC.h */,
+				4BC7816B171FB6FC00CB047D /* PlayerListVC.m */,
+				4BA6E40A171F25CE004187F1 /* PlayerDetailVC.h */,
+				4BA6E40B171F25CE004187F1 /* PlayerDetailVC.m */,
+				4B36982C171EE0D300D70BCB /* TeamDetailVC.h */,
+				4B36982D171EE0D300D70BCB /* TeamDetailVC.m */,
+				4B369820171ED78F00D70BCB /* DataManager.m */,
+				4B36981F171ED78B00D70BCB /* DataManager.h */,
+				4B36981D171ED78500D70BCB /* TeamListVC.m */,
+				4B36981C171ED78000D70BCB /* TeamListVC.h */,
+				4B369805171ED75B00D70BCB /* QLBongDaTab */,
 				4B3697FE171ED75B00D70BCB /* Frameworks */,
 				4B3697FD171ED75B00D70BCB /* Products */,
 			);
@@ -75,13 +137,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4B369805171ED75B00D70BCB /* QLBongDa */ = {
+		4B369805171ED75B00D70BCB /* QLBongDaTab */ = {
 			isa = PBXGroup;
 			children = (
-				4B36980E171ED75B00D70BCB /* AppDelegate.h */,
-				4B36980F171ED75C00D70BCB /* AppDelegate.m */,
+				4B36982A171ED7CE00D70BCB /* AppDelegate.m */,
+				4B369829171ED7CA00D70BCB /* AppDelegate.h */,
 				4B369806171ED75B00D70BCB /* Supporting Files */,
 			);
+			name = QLBongDaTab;
 			path = QLBongDa;
 			sourceTree = "<group>";
 		};
@@ -97,6 +160,26 @@
 				4B369815171ED75C00D70BCB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BA6E40D171F2AC5004187F1 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4BA6E42C171F3BB5004187F1 /* InfoBox.png */,
+				4BA6E42A171F3AC8004187F1 /* ArsenalTeam.jpg */,
+				4BA6E428171F3A8C004187F1 /* ManchesterCityTeam.jpeg */,
+				4BA6E426171F3A4C004187F1 /* ChealseaTeam.jpg */,
+				4BA6E424171F39F7004187F1 /* LiverpoolTeam.jpeg */,
+				4BA6E422171F38E0004187F1 /* ManchesterUnitedTeam.jpg */,
+				4BA6E41E171F2DA0004187F1 /* Arsenal.jpg */,
+				4BA6E418171F2BC5004187F1 /* Liverpool.jpg */,
+				4BA6E414171F2B74004187F1 /* Chelsea.jpg */,
+				4BA6E412171F2B3F004187F1 /* ManchesterCity.jpg */,
+				4BA6E410171F2B0C004187F1 /* ManchesterUnited.jpg */,
+				4B369824171ED79800D70BCB /* Player.plist */,
+				4B369822171ED79200D70BCB /* Team.plist */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +237,19 @@
 				4B369812171ED75C00D70BCB /* Default.png in Resources */,
 				4B369814171ED75C00D70BCB /* Default@2x.png in Resources */,
 				4B369816171ED75C00D70BCB /* Default-568h@2x.png in Resources */,
+				4B369823171ED79200D70BCB /* Team.plist in Resources */,
+				4B369825171ED79800D70BCB /* Player.plist in Resources */,
+				4BA6E411171F2B0C004187F1 /* ManchesterUnited.jpg in Resources */,
+				4BA6E413171F2B3F004187F1 /* ManchesterCity.jpg in Resources */,
+				4BA6E415171F2B74004187F1 /* Chelsea.jpg in Resources */,
+				4BA6E419171F2BC5004187F1 /* Liverpool.jpg in Resources */,
+				4BA6E41F171F2DA0004187F1 /* Arsenal.jpg in Resources */,
+				4BA6E423171F38E0004187F1 /* ManchesterUnitedTeam.jpg in Resources */,
+				4BA6E425171F39F7004187F1 /* LiverpoolTeam.jpeg in Resources */,
+				4BA6E427171F3A4C004187F1 /* ChealseaTeam.jpg in Resources */,
+				4BA6E429171F3A8C004187F1 /* ManchesterCityTeam.jpeg in Resources */,
+				4BA6E42B171F3AC8004187F1 /* ArsenalTeam.jpg in Resources */,
+				4BA6E42D171F3BB5004187F1 /* InfoBox.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B36980C171ED75B00D70BCB /* main.m in Sources */,
-				4B369810171ED75C00D70BCB /* AppDelegate.m in Sources */,
+				4B36981E171ED78500D70BCB /* TeamListVC.m in Sources */,
+				4B369821171ED78F00D70BCB /* DataManager.m in Sources */,
+				4B36982B171ED7CE00D70BCB /* AppDelegate.m in Sources */,
+				4B36982F171EE0D300D70BCB /* TeamDetailVC.m in Sources */,
+				4BA6E406171F065C004187F1 /* Player.m in Sources */,
+				4BA6E409171F0666004187F1 /* Team.m in Sources */,
+				4BA6E40C171F25CE004187F1 /* PlayerDetailVC.m in Sources */,
+				4BC7816C171FB6FC00CB047D /* PlayerListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +349,7 @@
 				GCC_PREFIX_HEADER = "QLBongDa/QLBongDa-Prefix.pch";
 				INFOPLIST_FILE = "QLBongDa/QLBongDa-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,6 +361,7 @@
 				GCC_PREFIX_HEADER = "QLBongDa/QLBongDa-Prefix.pch";
 				INFOPLIST_FILE = "QLBongDa/QLBongDa-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +385,7 @@
 				4B36981B171ED75C00D70BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
